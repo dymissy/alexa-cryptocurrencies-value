@@ -1,0 +1,119 @@
+{
+	"listTemplate1Metadata": {
+		"type": "object",
+		"objectId": "lt1Metadata",
+		"backgroundImage": {
+			"contentDescription": null,
+			"smallSourceUrl": null,
+			"largeSourceUrl": null,
+			"sources": [{
+					"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/cryptocurrencies_bg.jpg",
+					"size": "small",
+					"widthPixels": 0,
+					"heightPixels": 0
+				},
+				{
+					"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/cryptocurrencies_bg.jpg",
+					"size": "large",
+					"widthPixels": 0,
+					"heightPixels": 0
+				}
+			]
+		},
+		"title": "Valore Cripto Valute",
+		"logoUrl": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/logo.png",
+		"lastUpdate": "22 giugno 2019 alle 11:22"
+	},
+	"listTemplate1ListData": {
+		"type": "list",
+		"listId": "lt1Sample",
+		"totalNumberOfItems": 10,
+		"listPage": {
+			"listItems": [{
+					"listItemIdentifier": "bitcoin",
+					"ordinalNumber": 1,
+					"textContent": {
+						"name": {
+							"type": "PlainText",
+							"text": "Bitcoin"
+						},
+						"symbol": {
+							"type": "PlainText",
+							"text": "BTC"
+						},
+						"priceEur": {
+							"type": "PlainText",
+							"text": "7.034,34"
+						},
+						"changePercent24Hr": {
+							"type": "PlainText",
+							"text": "+2.22",
+							"color": "green"
+						}
+					},
+					"image": {
+						"contentDescription": null,
+						"smallSourceUrl": null,
+						"largeSourceUrl": null,
+						"sources": [{
+								"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/icons/btc.png",
+								"size": "small",
+								"widthPixels": 0,
+								"heightPixels": 0
+							},
+							{
+								"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/icons/btc.png",
+								"size": "large",
+								"widthPixels": 0,
+								"heightPixels": 0
+							}
+						]
+					},
+					"token": "bitcoin"
+				},
+				{
+					"listItemIdentifier": "litecoin",
+					"ordinalNumber": 2,
+					"textContent": {
+						"name": {
+							"type": "PlainText",
+							"text": "Litecoin"
+						},
+						"symbol": {
+							"type": "RichText",
+							"text": "LTC"
+						},
+						"priceEur": {
+							"type": "PlainText",
+							"text": "€ 48,63"
+						},
+						"changePercent24Hr": {
+							"type": "PlainText",
+							"text": "-2.22",
+							"color": "red"
+						}
+					},
+					"image": {
+						"contentDescription": null,
+						"smallSourceUrl": null,
+						"largeSourceUrl": null,
+						"sources": [{
+								"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/icons/ltc.png",
+								"size": "small",
+								"widthPixels": 0,
+								"heightPixels": 0
+							},
+							{
+								"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/icons/ltc.png",
+								"size": "large",
+								"widthPixels": 0,
+								"heightPixels": 0
+							}
+						]
+					},
+					"token": "litecoin"
+				}
+			]
+		}
+	}
+}

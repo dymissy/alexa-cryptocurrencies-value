@@ -1,0 +1,64 @@
+{
+	"bodyTemplate3Data": {
+		"type": "object",
+		"objectId": "bt3Sample",
+		"backgroundImage": {
+			"contentDescription": null,
+			"smallSourceUrl": null,
+			"largeSourceUrl": null,
+			"sources": [{
+					"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/cryptocurrencies_bg.jpg",
+					"size": "small",
+					"widthPixels": 0,
+					"heightPixels": 0
+				},
+				{
+					"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/cryptocurrencies_bg.jpg",
+					"size": "large",
+					"widthPixels": 0,
+					"heightPixels": 0
+				}
+			]
+		},
+		"title": "Valore Cripto Valute",
+		"image": {
+			"contentDescription": null,
+			"smallSourceUrl": null,
+			"largeSourceUrl": null,
+			"sources": [{
+					"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/icons/btc.png",
+					"size": "small",
+					"widthPixels": 0,
+					"heightPixels": 0
+				},
+				{
+					"url": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/icons/btc.png",
+					"size": "large",
+					"widthPixels": 0,
+					"heightPixels": 0
+				}
+			]
+		},
+		"textContent": {
+			"title": {
+				"type": "PlainText",
+				"text": "Bitcoin"
+			},
+			"subtitle": {
+				"type": "PlainText",
+				"text": "BTC"
+			},
+			"currencyValue": {
+				"type": "PlainText",
+				"text": "10.175,22 €"
+			},
+			"changePercent24Hr": {
+				"type": "PlainText",
+				"text": "-2.12%",
+				"color": "red"
+			}
+		},
+		"logoUrl": "https://dymissy-criptocurrencies.s3.eu-central-1.amazonaws.com/logo.png",
+		"hintText": "Prova, \"Alexa chiedi a Valore Cripto Valute quanto vale un Bitcoin\""
+	}
+}
